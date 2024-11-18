@@ -36,7 +36,7 @@ async def on_message(message):
         await message.channel.send(gif_url)
 
 def runBot():
-    discord_token = 'Mettre le toker du bot discord' 
+    discord_token = 'Mettre le token du bot discord' 
     client.run(discord_token)
 
 if __name__ == "__main__":
